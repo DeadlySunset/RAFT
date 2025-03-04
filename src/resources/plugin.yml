@@ -1,0 +1,9 @@
+name: RaftPlugin
+version: 1.0
+main: io.pfaumc.example.RaftPlugin
+author: YourName
+description: Плагин для выживания на плоту
+commands:
+  raft:
+    description: Управление выживанием на плоту
+    usage: /<command> create

@@ -2,3 +2,8 @@ name: $name
 version: $version
 main: $main
 api-version: "$apiVersion"
+
+commands:
+  raft:
+    description: Управление плотом
+    usage: /<command>

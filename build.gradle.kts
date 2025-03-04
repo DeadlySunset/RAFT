@@ -1,5 +1,5 @@
 plugins {
-    java
+    kotlin("jvm") version "2.0.21"
     idea
     alias(libs.plugins.shadow)
     alias(libs.plugins.paper)
@@ -15,6 +15,8 @@ repositories {
 
 dependencies {
     paperweight.paperDevBundle(project.properties["paper.version"].toString())
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk9:1.9.0")
+
 }
 
 tasks {
@@ -36,3 +38,4 @@ tasks {
         }
     }
 }
+
